@@ -4,7 +4,9 @@ import Footer from '../components/Footer'
 import ServiceHero from '../components/ServiceHero'
 import PPFSpecsStrip from '../components/PPFSpecsStrip'
 import PPFCoverageGrid from '../components/PPFCoverageGrid'
-import { imgPrimary, galleryImgs } from '../data'
+import shift0 from '../../assets/images/shift-colour-hero.PNG'
+import shift1 from '../../assets/images/shift-colour-01.webp'
+import shift2 from '../../assets/images/shift-colour-02.webp'
 
 const ShieldIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -74,7 +76,7 @@ export default function ShiftColorPPF() {
         h1="Every Angle, a New Color. 12-Year Warranty PPF."
         intro="Shift Color Paint Protection Film uses TPU with built-in color-shift pigments that change hue depending on the angle of light. It does what a vinyl wrap does — but with the thickness, self-healing surface, and stone-impact resistance of a real protective film. Up to a 12-year warranty."
         pills={['12-Year Warranty', 'Color-Shift Pigment in TPU Film', 'Self-Healing Surface', 'Phoenix, AZ Shop']}
-        img={imgPrimary}
+        img={shift0}
       />
 
       <section className="ppf-overview">
@@ -137,7 +139,7 @@ export default function ShiftColorPPF() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[15]} alt="Shift Color PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={shift1} alt="Shift Color PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -147,7 +149,7 @@ export default function ShiftColorPPF() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[0]} alt="Color shift PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={shift2} alt="Color shift PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -157,7 +159,7 @@ export default function ShiftColorPPF() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[4]} alt="PPF color change — King Garcia Auto Detail" />
+                  <img loading="lazy" src={shift0} alt="PPF color change — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

@@ -4,7 +4,9 @@ import Footer from '../components/Footer'
 import ServiceHero from '../components/ServiceHero'
 import PPFSpecsStrip from '../components/PPFSpecsStrip'
 import PPFCoverageGrid from '../components/PPFCoverageGrid'
-import { exotic4, galleryImgs } from '../data'
+import urban0 from '../../assets/images/urban-paint-hero.jpg'
+import urban1 from '../../assets/images/urban-paint-01.webp'
+import urban2 from '../../assets/images/urban-paint-02.jpg'
 
 const ShieldIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -73,7 +75,7 @@ export default function UrbanPPF() {
         h1="Armor With an Attitude. Patterns Built Into the Film."
         intro="Urban Paint Protection Film integrates custom patterns — carbon fiber, camouflage, geometric designs — directly into the film structure. It carries the same impact resistance as KAVACA Gloss Pro while transforming the vehicle's appearance from factory to fully customized."
         pills={['Carbon Fiber, Camo & Geometric Patterns', 'Same Impact Resistance as Gloss Pro', 'Full Car or Panel Coverage', 'Phoenix, AZ Shop']}
-        img={exotic4}
+        img={urban0}
       />
 
       <section className="ppf-overview">
@@ -136,7 +138,7 @@ export default function UrbanPPF() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[12]} alt="Urban PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={urban1} alt="Urban PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -146,7 +148,7 @@ export default function UrbanPPF() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[13]} alt="Custom PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={urban2} alt="Custom PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -156,7 +158,7 @@ export default function UrbanPPF() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[14]} alt="PPF custom build — King Garcia Auto Detail" />
+                  <img loading="lazy" src={urban0} alt="PPF custom build — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import CeramicPackageOrbs from '../components/CeramicPackageOrbs'
 import Reviews from '../components/Reviews'
-import { imgPrimary, imgDetail, exotic1, exotic2, exotic3, exotic4, galleryImgs } from '../data'
+import { galleryImgs } from '../data'
+import bentoDetail from '../../assets/detailing/cars/Detailing_american_business_cars_202605061843.jpeg'
+import bentoCeramic from '../../assets/others/ceramic-pro-gold-02.jpeg'
+import bentoPPF from '../../assets/images/ceramic-pro-gloss-ppf-1187x1536.jpg'
+import bentoTint from '../../assets/others/ceramic-pro-sport-hero.jpg'
+import bentoBoat from '../../assets/detailing/botas/Detailing_boats_without_people_202605061854.jpeg'
+import bentoMoto from '../../assets/detailing/moto/Detailing_motorcycles_without_pe…_202605061851.jpeg'
 
 function onBentoMove(e) {
   const el = e.currentTarget
@@ -21,12 +27,12 @@ function onBentoLeave(e) {
 }
 
 const services = [
-  ['Auto Detailing', 'Interior and exterior detailing for vehicles that need a cleaner, sharper, better-protected finish.', '/detailing/', exotic1],
-  ['Ceramic Coatings', 'Ceramic Pro coating packages available at King Garcia Auto Detail to add gloss, support easier maintenance, and help protect painted surfaces.', '/ceramic-pro-coatings/', imgDetail],
-  ['Paint Protection Film', 'Clear, matte, black, urban, and color-shift film options for added defense against daily road wear.', '/paint-protection-films/', exotic2],
-  ['Window Tint', 'Automotive, residential, and commercial tint services for privacy, comfort, and a clean finished look.', '/windows-tint/', exotic3],
-  ['Boats / Marine', 'Marine detailing and coating services for boats that need shine, surface protection, and easier upkeep.', '/boats/', exotic4],
-  ['Motorcycles', 'Motorcycle detailing and protection with careful attention to exposed finishes, trim, and tight areas.', '/motorcycles/', imgPrimary],
+  ['Auto Detailing', 'Interior and exterior detailing for vehicles that need a cleaner, sharper, better-protected finish.', '/detailing/', bentoDetail],
+  ['Ceramic Coatings', 'Ceramic Pro coating packages available at King Garcia Auto Detail to add gloss, support easier maintenance, and help protect painted surfaces.', '/ceramic-pro-coatings/', bentoCeramic],
+  ['Paint Protection Film', 'Clear, matte, black, urban, and color-shift film options for added defense against daily road wear.', '/paint-protection-films/', bentoPPF],
+  ['Window Tint', 'Automotive, residential, and commercial tint services for privacy, comfort, and a clean finished look.', '/windows-tint/', bentoTint],
+  ['Boats / Marine', 'Marine detailing and coating services for boats that need shine, surface protection, and easier upkeep.', '/boats/', bentoBoat],
+  ['Motorcycles', 'Motorcycle detailing and protection with careful attention to exposed finishes, trim, and tight areas.', '/motorcycles/', bentoMoto],
 ]
 
 const packageLinks = [

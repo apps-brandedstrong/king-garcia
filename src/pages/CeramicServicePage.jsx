@@ -159,7 +159,7 @@ export default function CeramicServicePage({ slug }) {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src="/assets/imgspropias/21504.jpg" alt="Detail work — King Garcia Auto Detail" />
+                  <img loading="lazy" src={d.gal?.[0] || '/assets/imgspropias/21504.jpg'} alt="Detail work — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -169,7 +169,7 @@ export default function CeramicServicePage({ slug }) {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src="/assets/imgspropias/21516.jpg" alt="Wheel coating — King Garcia Auto Detail" />
+                  <img loading="lazy" src={d.gal?.[1] || '/assets/imgspropias/21516.jpg'} alt="Wheel coating — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -179,7 +179,7 @@ export default function CeramicServicePage({ slug }) {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src="/assets/imgspropias/21525.jpg" alt="King Garcia shop work" />
+                  <img loading="lazy" src={d.gal?.[2] || '/assets/imgspropias/21525.jpg'} alt="King Garcia shop work" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

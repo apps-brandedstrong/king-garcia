@@ -4,7 +4,9 @@ import Footer from '../components/Footer'
 import ServiceHero from '../components/ServiceHero'
 import PPFSpecsStrip from '../components/PPFSpecsStrip'
 import PPFCoverageGrid from '../components/PPFCoverageGrid'
-import { exotic2, galleryImgs } from '../data'
+import mate0 from '../../assets/images/mate-hero.jpg'
+import mate1 from '../../assets/images/mate-01.jpg'
+import mate2 from '../../assets/images/mate-02.jpg'
 
 const ShieldIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -70,7 +72,7 @@ export default function MattePPF() {
         h1="Run Matte Without the Risk. Satin Film That Self-Heals."
         intro="Matte Paint Protection Film gives any glossy vehicle a premium satin finish while adding the same protective film technology found in Gloss Pro. Unlike factory matte paint, this surface can be maintained without special products — and it heals itself."
         pills={['Satin Finish Transformation', 'Self-Healing Film', 'No Polishing Required', 'Phoenix, AZ Shop']}
-        img={exotic2}
+        img={mate0}
       />
 
       <section className="ppf-overview">
@@ -133,7 +135,7 @@ export default function MattePPF() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[3]} alt="Matte PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={mate1} alt="Matte PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -143,7 +145,7 @@ export default function MattePPF() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[7]} alt="Matte finish PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={mate2} alt="Matte finish PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -153,7 +155,7 @@ export default function MattePPF() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[10]} alt="PPF detail — King Garcia Auto Detail" />
+                  <img loading="lazy" src={mate0} alt="PPF detail — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

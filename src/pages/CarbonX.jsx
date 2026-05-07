@@ -1,7 +1,11 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
-import { galleryImgs } from '../data'
+import cx0 from '../../assets/others/ceramic-pro-bronce-hero.jpg'
+import cx1 from '../../assets/others/ceramic-pro-bronce-01.jpeg'
+import cx2 from '../../assets/others/ceramic-pro-bronce-02.jpeg'
+import cx3 from '../../assets/others/ceramic-pro-bronce-03.jpeg'
+import cx4 from '../../assets/others/ceramic-pro-sport-01.jpg'
 
 const specs = [
   {
@@ -58,7 +62,7 @@ export default function CarbonX() {
 
   return (
     <>
-      <section className="hero hero-about">
+      <section className="hero hero-svc" style={{ '--page-img': `url('${cx0}')` }}>
         <div className="container">
           <div className="hero-copy">
             <div className="eyebrow">KING GARCIA AUTO DETAIL LLC · Phoenix, AZ</div>
@@ -127,7 +131,7 @@ export default function CarbonX() {
               </div>
             </div>
             <div className="about-shop-img">
-              <img loading="lazy" src={galleryImgs[60]} alt="Carbon X tint install — King Garcia Auto Detail Phoenix" />
+              <img loading="lazy" src={cx1} alt="Carbon X tint install — King Garcia Auto Detail Phoenix" />
             </div>
           </div>
         </div>
@@ -170,7 +174,7 @@ export default function CarbonX() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[15]} alt="Carbon X tint — King Garcia Auto Detail" />
+                  <img loading="lazy" src={cx2} alt="Carbon X tint — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -180,7 +184,7 @@ export default function CarbonX() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[35]} alt="Window tint — King Garcia Auto Detail" />
+                  <img loading="lazy" src={cx3} alt="Window tint — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -190,7 +194,7 @@ export default function CarbonX() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[55]} alt="Tint project — King Garcia Auto Detail" />
+                  <img loading="lazy" src={cx4} alt="Tint project — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

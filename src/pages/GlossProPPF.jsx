@@ -4,7 +4,9 @@ import Footer from '../components/Footer'
 import ServiceHero from '../components/ServiceHero'
 import PPFSpecsStrip from '../components/PPFSpecsStrip'
 import PPFCoverageGrid from '../components/PPFCoverageGrid'
-import { imgDetail, galleryImgs } from '../data'
+import gloss0 from '../../assets/images/ceramic-pro-gloss-ppf-1187x1536.jpg'
+import gloss1 from '../../assets/images/BR705347-1365x2048.jpg'
+import gloss2 from '../../assets/images/BR701051-1365x2048.jpg'
 
 const ShieldIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -78,7 +80,7 @@ export default function GlossProPPF() {
         h1="Invisible Armor. Factory Gloss. Film That Heals Itself."
         intro="KAVACA Gloss Pro is the flagship paint protection film — a high-performance aliphatic polyurethane with a factory-integrated ceramic topcoat and nanotechnology adhesive. Available for front bumpers, front kits, or full car coverage."
         pills={['Ceramic Topcoat Integrated', 'Self-Healing Film', '3 Coverage Levels', 'Phoenix, AZ Shop']}
-        img={imgDetail}
+        img={gloss0}
       />
 
       <section className="ppf-overview">
@@ -159,7 +161,7 @@ export default function GlossProPPF() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[1]} alt="Gloss Pro PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={gloss0} alt="Gloss Pro PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -169,7 +171,7 @@ export default function GlossProPPF() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[5]} alt="PPF front kit — King Garcia Auto Detail" />
+                  <img loading="lazy" src={gloss1} alt="PPF front kit — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -179,7 +181,7 @@ export default function GlossProPPF() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[8]} alt="PPF front bumper — King Garcia Auto Detail" />
+                  <img loading="lazy" src={gloss2} alt="PPF front bumper — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

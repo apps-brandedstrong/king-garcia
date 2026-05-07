@@ -4,7 +4,9 @@ import Footer from '../components/Footer'
 import ServiceHero from '../components/ServiceHero'
 import PPFSpecsStrip from '../components/PPFSpecsStrip'
 import PPFCoverageGrid from '../components/PPFCoverageGrid'
-import { exotic3, galleryImgs } from '../data'
+import black0 from '../../assets/images/black-paint-hero.jpg'
+import black1 from '../../assets/images/black-paint-01.jpg'
+import black2 from '../../assets/images/black-paint-02.jpg'
 
 const ShieldIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -73,7 +75,7 @@ export default function BlackPPF() {
         h1="Deeper Than Vinyl. Tougher Than Paint."
         intro="Black Paint Protection Film delivers piano black or matte black that looks like real paint — without the orange-peel texture of vinyl wraps and with the impact resistance vinyl can never provide. Used for roofs, hoods, accents, or full color-change builds."
         pills={['Piano or Matte Black Finish', 'No Orange Peel Texture', 'Stone Impact Resistant', 'Phoenix, AZ Shop']}
-        img={exotic3}
+        img={black0}
       />
 
       <section className="ppf-overview">
@@ -136,7 +138,7 @@ export default function BlackPPF() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[6]} alt="Black PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={black1} alt="Black PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -146,7 +148,7 @@ export default function BlackPPF() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[9]} alt="PPF build — King Garcia Auto Detail" />
+                  <img loading="lazy" src={black2} alt="PPF build — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -156,7 +158,7 @@ export default function BlackPPF() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[11]} alt="Full PPF — King Garcia Auto Detail" />
+                  <img loading="lazy" src={black0} alt="Full PPF — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

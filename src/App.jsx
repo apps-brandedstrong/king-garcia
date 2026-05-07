@@ -20,6 +20,9 @@ import CeramicTint from './pages/CeramicTint'
 import CarbonX from './pages/CarbonX'
 import Aftercare from './pages/Aftercare'
 import WindshieldProtection from './pages/WindshieldProtection'
+import Elite from './pages/Elite'
+import Projects from './pages/Projects'
+import Blog from './pages/Blog'
 
 function ScrollManager() {
   const { pathname, hash } = useLocation()
@@ -100,6 +103,9 @@ function Layout() {
           <Route path="/carbon-x/" element={<CarbonX />} />
           <Route path="/aftercare/" element={<Aftercare />} />
           <Route path="/windshield-protection/" element={<WindshieldProtection />} />
+          <Route path="/elite-dealer-exclusives/" element={<Elite />} />
+          <Route path="/projects/" element={<Projects />} />
+          <Route path="/blogs/" element={<Blog />} />
           <Route path="*" element={<ServicePage />} />
         </Routes>
       </main>

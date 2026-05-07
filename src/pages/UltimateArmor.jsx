@@ -4,7 +4,10 @@ import Footer from '../components/Footer'
 import ServiceHero from '../components/ServiceHero'
 import PPFSpecsStrip from '../components/PPFSpecsStrip'
 import PPFCoverageGrid from '../components/PPFCoverageGrid'
-import { imgPrimary, galleryImgs } from '../data'
+import ua0 from '../../assets/others/ceramic-pro-silver-hero.jpg'
+import ua1 from '../../assets/others/ceramic-pro-gold-02.jpeg'
+import ua2 from '../../assets/others/ceramic-pro-gold-03.jpeg'
+import ua3 from '../../assets/others/ceramic-pro-gold-04.jpeg'
 
 const ShieldIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -72,7 +75,7 @@ export default function UltimateArmor() {
         h1="The Only Protection Package Backed by Carfax for Life"
         intro="Ultimate Armor is the world's only paint protection package with a lifetime warranty documented by Carfax. Full Front PPF combined with Ceramic Pro coating on every remaining surface — the most complete vehicle protection system available."
         pills={['Carfax Lifetime Warranty', 'Full Front PPF', 'Ceramic Pro on All Remaining Surfaces', 'Phoenix, AZ Shop']}
-        img={imgPrimary}
+        img={ua0}
       />
 
       <section className="ppf-overview">
@@ -136,7 +139,7 @@ export default function UltimateArmor() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[0]} alt="Ultimate Armor PPF install — King Garcia Auto Detail" />
+                  <img loading="lazy" src={ua1} alt="Ultimate Armor PPF install — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -146,7 +149,7 @@ export default function UltimateArmor() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[2]} alt="PPF installation — King Garcia Auto Detail" />
+                  <img loading="lazy" src={ua2} alt="PPF installation — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -156,7 +159,7 @@ export default function UltimateArmor() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[4]} alt="Ceramic coating — King Garcia Auto Detail" />
+                  <img loading="lazy" src={ua3} alt="Ceramic coating — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">

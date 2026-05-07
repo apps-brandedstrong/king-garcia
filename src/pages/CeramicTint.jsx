@@ -2,7 +2,11 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Reviews from '../components/Reviews'
-import { galleryImgs } from '../data'
+import tint0 from '../../assets/others/ceramic-pro-silver-hero.jpg'
+import tint1 from '../../assets/others/ceramic-pro-gold-02.jpeg'
+import tint2 from '../../assets/others/ceramic-pro-gold-03.jpeg'
+import tint3 from '../../assets/others/ceramic-pro-gold-04.jpeg'
+import tint4 from '../../assets/others/ceramic-pro-bronce-01.jpeg'
 
 const specs = [
   {
@@ -63,7 +67,7 @@ export default function CeramicTint() {
 
   return (
     <>
-      <section className="hero hero-about">
+      <section className="hero hero-svc" style={{ '--page-img': `url('${tint0}')` }}>
         <div className="container">
           <div className="hero-copy">
             <div className="eyebrow">KING GARCIA AUTO DETAIL LLC · Phoenix, AZ</div>
@@ -132,7 +136,7 @@ export default function CeramicTint() {
               </div>
             </div>
             <div className="about-shop-img">
-              <img loading="lazy" src={galleryImgs[45]} alt="Ceramic window tint installation — King Garcia Auto Detail Phoenix" />
+              <img loading="lazy" src={tint1} alt="Ceramic window tint installation — King Garcia Auto Detail Phoenix" />
             </div>
           </div>
         </div>
@@ -175,7 +179,7 @@ export default function CeramicTint() {
             <div className="gallery-fan">
               <Link className="gcard gcard-0" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[10]} alt="Ceramic tint project — King Garcia Auto Detail" />
+                  <img loading="lazy" src={tint2} alt="Ceramic tint project — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -185,7 +189,7 @@ export default function CeramicTint() {
               </Link>
               <Link className="gcard gcard-1" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[25]} alt="Window tint install — King Garcia Auto Detail" />
+                  <img loading="lazy" src={tint3} alt="Window tint install — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
@@ -195,7 +199,7 @@ export default function CeramicTint() {
               </Link>
               <Link className="gcard gcard-2" to="/projects/">
                 <div className="gcard-img">
-                  <img loading="lazy" src={galleryImgs[40]} alt="Luxury vehicle tint — King Garcia Auto Detail" />
+                  <img loading="lazy" src={tint4} alt="Luxury vehicle tint — King Garcia Auto Detail" />
                   <span className="gcard-tag">Phoenix, AZ</span>
                 </div>
                 <div className="gcard-info">
